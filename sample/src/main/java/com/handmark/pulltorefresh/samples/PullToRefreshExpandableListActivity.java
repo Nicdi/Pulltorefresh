@@ -39,7 +39,8 @@ public final class PullToRefreshExpandableListActivity extends ExpandableListAct
 	private PullToRefreshExpandableListView mPullRefreshListView;
 	private SimpleExpandableListAdapter mAdapter;
 
-	/** Called when the activity is first created. */
+	/** Called when the activity is first created.
+	 * 当Activity初始的时候被调用*/
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
